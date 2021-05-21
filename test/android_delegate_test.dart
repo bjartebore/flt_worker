@@ -1,6 +1,6 @@
-import 'package:flt_worker/android.dart';
-import 'package:flt_worker/flt_worker.dart';
-import 'package:flt_worker/src/work_manager/delegate.dart';
+import 'package:flt_worker_nullsafety/android.dart';
+import 'package:flt_worker_nullsafety/flt_worker.dart';
+import 'package:flt_worker_nullsafety/src/work_manager/delegate.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

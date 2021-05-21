@@ -1,6 +1,6 @@
-import 'package:flt_worker/flt_worker.dart';
-import 'package:flt_worker/ios.dart';
-import 'package:flt_worker/src/background_tasks/delegate.dart';
+import 'package:flt_worker_nullsafety/flt_worker.dart';
+import 'package:flt_worker_nullsafety/ios.dart';
+import 'package:flt_worker_nullsafety/src/background_tasks/delegate.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

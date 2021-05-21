@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flt_worker/flt_worker.dart';
+import 'package:flt_worker_nullsafety/flt_worker.dart';
 
 import 'btc_price_file.dart';
 import 'counter_file.dart';

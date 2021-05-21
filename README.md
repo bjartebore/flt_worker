@@ -69,7 +69,7 @@ Add lines like this to the `Info.plist` file:
 Before you can schedule background tasks, a worker callback must be registerted to the plugin:
 
 ```dart
-import 'package:flt_worker/flt_worker.dart';
+import 'package:flt_worker_nullsafety/flt_worker.dart';
 
 void main() {
   runApp(MyApp());
@@ -125,7 +125,7 @@ However, to leverage the full power of each platform's background processing fea
 For example, you can schedule a periodic work using the `WorkManager` APIs on an Android device:
 
 ```dart
-import 'package:flt_worker/android.dart';
+import 'package:flt_worker_nullsafety/android.dart';
 
 Future<void> _startPolling() async {
   await cancelAllWorkByTag('tag'); // cancel the previous work
@@ -148,7 +148,7 @@ Future<void> _startPolling() async {
 Or to use the `BackgroundTasks` APIs on iOS 13.0+:
 
 ```dart
-import 'package:flt_worker/ios.dart';
+import 'package:flt_worker_nullsafety/ios.dart';
 
 void _increaseCounter(int counter) {
   submitTaskRequest(BGProcessingTaskRequest(

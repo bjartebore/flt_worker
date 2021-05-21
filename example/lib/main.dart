@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flt_worker/flt_worker.dart';
+import 'package:flt_worker_nullsafety/flt_worker.dart';
 import 'package:flutter/material.dart';
 
 import 'background_tasks_btc_prices.dart';

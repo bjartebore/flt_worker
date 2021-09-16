@@ -10,6 +10,7 @@ import java.util.List;
 
 import dev.thinkng.flt_worker.internal.AbsWorkerPlugin;
 import dev.thinkng.flt_worker.internal.BackgroundWorkerPlugin;
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.Result;
@@ -18,10 +19,10 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** Main entry of the FltWorkerPlugin, dedicated to main isolate. */
 @Keep
-public class FltWorkerPlugin extends AbsWorkerPlugin {
+public class FltWorkerPlugin extends AbsWorkerPlugin implements FlutterPlugin {
   /**
    * Provides a callback to register all needed plugins for background workers.
-   * 
+   *
    * Example:
    * <pre>{@code
    * @Override

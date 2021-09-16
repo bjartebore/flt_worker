@@ -78,6 +78,7 @@ final class WorkRequests {
     return builder.build();
   }
 
+  @SuppressWarnings("unchecked")
   private static void populateRequestBuilder(WorkRequest.Builder builder, @NonNull Map json) {
     Object tagsJson = json.get("tags");
     if (tagsJson instanceof Iterable) {

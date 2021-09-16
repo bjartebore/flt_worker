@@ -39,5 +39,5 @@ dependencies {
     implementation "androidx.work:work-runtime:$work_version"
 //    implementation "androidx.work:work-rxjava2:$work_version"
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
